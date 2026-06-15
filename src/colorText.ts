@@ -1,4 +1,4 @@
-import { isNode } from '@mudbean/utils';
+import { isNode } from '@vvi/utils';
 import { tearDownStr } from './utils/tearDownStr';
 
 /**
@@ -9,7 +9,7 @@ import { tearDownStr } from './utils/tearDownStr';
  *
  * @example
  * ```ts
- * import { colorText , pen, redPen } from '@mudbean/pen';
+ * import { colorText , pen, redPen } from '@vvi/pen';
  *
  * const tex = colorText(pen.red`红色的文本`.concat('没有样式的文本'))
  *

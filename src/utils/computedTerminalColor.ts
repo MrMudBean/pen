@@ -1,5 +1,5 @@
-import { getRandomInt } from '@mudbean/utils';
-import { isTrue, isString, isArray, isNumber, isFalse } from '@mudbean/is';
+import { getRandomInt } from '@vvi/utils';
+import { isTrue, isString, isArray, isNumber, isFalse } from '@vvi/is';
 /**
  * # 计算 256 色值
  *

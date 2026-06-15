@@ -1,7 +1,7 @@
-import { terminalRegExp } from '@mudbean/pen-static';
+import { terminalRegExp } from '@vvi/pen-static';
 import { kindList } from './kindList';
 import { reverseParse } from './reverseParse';
-import { isNull, isUndefined } from '@mudbean/is';
+import { isNull, isUndefined } from '@vvi/is';
 
 /**
  * # 拆解字符串
@@ -44,7 +44,9 @@ export function tearDownStr(str: string): string[] {
   return result;
 }
 
-/**  构建结果子项  */
+/**
+ * # 构建结果子项
+ */
 export class ResultItem {
   /**  构建方式  */
   constructor(str: string) {

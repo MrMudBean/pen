@@ -1,11 +1,8 @@
-import { getRandomInt } from '@mudbean/utils';
+import { getRandomInt } from '@vvi/utils';
 
 /**
- *
- * 色值对象表
- *
+ * # 色值对象表
  * 该色值以Terminal.app 为准
- *
  */
 const colorList = [
   '#000000',
@@ -26,9 +23,7 @@ const colorList = [
   '#ebeded',
 ];
 /**
- *
- * 反向解析色值
- *
+ * # 反向解析色值
  */
 export function reverseParse(str: string): string {
   /**  取出色值  */

@@ -1,4 +1,4 @@
-import { isTrue } from '@mudbean/is';
+import { isTrue } from '@vvi/is';
 /**
  * # 将新样式文本追加到样式文本数组中
  *

@@ -1,11 +1,10 @@
 import { beforeBuild } from './beforeBuild';
-import { isEmptyArray, isEmptyString, isNull, isUndefined } from '@mudbean/is';
+import { isEmptyArray, isEmptyString, isNull, isUndefined } from '@vvi/is';
 import { penText } from '../types';
-import { csi } from '@mudbean/pen-static';
+import { csi } from '@vvi/pen-static';
 
 /**
- *
- * 构建最终文本
+ * # 构建最终文本
  *
  * @param str
  * @param kinds

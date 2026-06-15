@@ -1,4 +1,4 @@
-import { getRandomInt } from '@mudbean/utils';
+import { getRandomInt } from '@vvi/utils';
 
 /**
  * #  使用数值配置色值

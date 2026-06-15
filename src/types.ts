@@ -9,7 +9,7 @@
  * @returns 返回 ANSI 颜色文本
  * @example
  * ```ts
- * import { pen } from '@mudbean/pen';
+ * import { pen } from '@vvi/pen';
  *
  * const redPen = pen.bgRgb(255, 0, 0); // 构建红色背景
  * const bluePen = pen.bgRgb('rgb(0, 0, 255)'); // 构建蓝色背景
@@ -44,7 +44,7 @@ export type RGBFunctionWithOnlyString = (rgb: string) => Pen;
  * @returns 返回 ANSI 颜色文本
  * @example
  * ```ts
- * import { pen } from '@mudbean/pen';
+ * import { pen } from '@vvi/pen';
  *
  * const redPen = pen.bgRgb(255, 0, 0); // 构建红色背景
  * const bluePen = pen.bgRgb('rgb(0, 0, 255)'); // 构建蓝色背景
@@ -441,7 +441,7 @@ export interface FunctionKindList {
    * @returns 返回 ANSI 颜色文本
    * @example
    * ```ts
-   * import { pen } from '@mudbean/pen';
+   * import { pen } from '@vvi/pen';
    *
    * const redPen = pen.bgRgb(255, 0, 0); // 构建红色背景
    * const bluePen = pen.bgRgb('rgb(0, 0, 255)'); // 构建蓝色背景
@@ -469,7 +469,7 @@ export interface FunctionKindList {
    * @returns 返回 ANSI 颜色文本
    * @example
    * ```ts
-   * import { pen } from '@mudbean/pen';
+   * import { pen } from '@vvi/pen';
    *
    * const redPen = pen.bgRgb(255, 0, 0); // 构建红色背景
    * const bluePen = pen.bgRgb('rgb(0, 0, 255)'); // 构建蓝色背景
@@ -523,7 +523,7 @@ export interface FunctionKindList {
    * @example
    *
    * ```ts
-   * import { pen } from '@mudbean/pen';
+   * import { pen } from '@vvi/pen';
    *
    * pen.number(0)`黑色文本`;
    * pen.number(1)`红色文本`;
@@ -556,7 +556,7 @@ export interface FunctionKindList {
    * @example
    *
    * ```ts
-   * import { pen } from '@mudbean/pen';
+   * import { pen } from '@vvi/pen';
    *
    * pen.number(0)`黑色背景`;
    * pen.number(1)`红色背景`;

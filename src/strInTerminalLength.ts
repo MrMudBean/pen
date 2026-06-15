@@ -1,4 +1,4 @@
-import { terminalRegExp } from '@mudbean/pen-static';
+import { terminalRegExp } from '@vvi/pen-static';
 
 /**
  * # 计算字符串在终端显示的长度

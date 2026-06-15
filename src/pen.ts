@@ -16,8 +16,8 @@ import {
   isEmptyArray,
   isUndefined,
   isNumber,
-} from '@mudbean/is';
-import { createConstructor } from '@mudbean/utils';
+} from '@vvi/is';
+import { createConstructor } from '@vvi/utils';
 
 /**
  * # 生成 `pen`
@@ -74,13 +74,10 @@ function generatePen(kinds: string[] = []): Pen {
 }
 
 /**
- *
- * 构建 `pen` 的构造函数
+ * # 构建 `pen` 的构造函数
  *
  * @param kinds 样式数组
- *
  * @example
- *
  */
 const generatePenConstructor = createConstructor(generatePen);
 

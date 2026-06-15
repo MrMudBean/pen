@@ -1,4 +1,4 @@
-import { csi } from '@mudbean/pen-static';
+import { csi } from '@vvi/pen-static';
 
 /**
  * # 让文本在终端保持在一行
@@ -11,7 +11,7 @@ import { csi } from '@mudbean/pen-static';
  * @example
  *
  * ```ts
- * import { strInOneLineOnTerminal } from '@mudbean/pen';
+ * import { strInOneLineOnTerminal } from '@vvi/pen';
  *
  * // 假设当前终端打印的列数为 10
  * const log = console.log;

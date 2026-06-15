@@ -1,4 +1,4 @@
-import { terminalRegExp, terminalResetStyle } from '@mudbean/pen-static';
+import { terminalRegExp, terminalResetStyle } from '@vvi/pen-static';
 import { strInTerminalLength } from './strInTerminalLength';
 
 /**

@@ -8,15 +8,15 @@ importers:
 
   .:
     dependencies:
-      '@mudbean/is':
-        specifier: ^2.0.2
-        version: 2.0.2
-      '@mudbean/pen-static':
-        specifier: ^1.1.2
-        version: 1.1.2
-      '@mudbean/utils':
+      '@vvi/is':
         specifier: ^2.0.5
         version: 2.0.5
+      '@vvi/pen-static':
+        specifier: ^1.1.3
+        version: 1.1.3
+      '@vvi/utils':
+        specifier: ^2.0.6
+        version: 2.0.6
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.2
@@ -218,18 +218,6 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
-
-  '@mudbean/is@2.0.2':
-    resolution: {integrity: sha512-tV3o9gdJ8P+TMHZJ1VhS98Y4pafVOhdqeYCf5/Oe4vXrZCC13/GQvrYAlFPVZQsfJ3NRVmeV9D9KNi6lOF77QA==}
-    engines: {node: '>=14.0.0'}
-
-  '@mudbean/pen-static@1.1.2':
-    resolution: {integrity: sha512-THGiQIsnzjSy9vfW2TEMAjvBTLPN+f12SC2+3O2OC5S+vR4RMHxI9onJenfIbqDhYSv734LmafvgrSLWTWQ/Mw==}
-    engines: {node: '>=18.0.0'}
-
-  '@mudbean/utils@2.0.5':
-    resolution: {integrity: sha512-dcjPFi0h2LBRdSOSzbFQBp4/uhhjIAZ1KbCF/JA1c4qW2zeU+Aw6XOPTFfAQIEioqQul0lIEkh5y6L4Ew2fD7g==}
-    engines: {node: '>=18.0.0'}
 
   '@napi-rs/wasm-runtime@1.1.5':
     resolution: {integrity: sha512-AWPoBRJ9tsnVhor4sjO7rkni+7p+2IAEFj6cx06UgP10jkQHqay/36uRV/bFkgrh18D9vb4cr8Q0Pthskgzy+Q==}
@@ -679,6 +667,18 @@ packages:
     resolution: {integrity: sha512-nAB74NfSNKknqQ1RrYj6uz8FcXEomu/MATJZxh/x+BArzN2U3JbOYC0APYzUIGhVY3m5hRxA8VPNdPBoG8txlA==}
     cpu: [x64]
     os: [win32]
+
+  '@vvi/is@2.0.5':
+    resolution: {integrity: sha512-DHp2dHi/dg3lWG3R10V6xuoffGhZJl9zNkpgqNry5RBW4kcXUtymswqJxbDhHFskllOqG8ommOQNhOLKeHxqkg==}
+    engines: {node: '>=14.0.0'}
+
+  '@vvi/pen-static@1.1.3':
+    resolution: {integrity: sha512-sj+QA6x+UYd0j3fYP/k/mzVx9QzPurNbquwZ8VyYkiZcAIw7hcqSxTrlt+7MsAjKTKT+2eesRqEphd+Z0mxK6Q==}
+    engines: {node: '>=18.0.0'}
+
+  '@vvi/utils@2.0.6':
+    resolution: {integrity: sha512-XfrhjMwZHtD31oLOnBDFJGRIxLZpZ+FIxeIEmVbn1G95+hPDBTYIVh+f+goCqZFp2+tzWqrh61Em55s41d9XlQ==}
+    engines: {node: '>=18.0.0'}
 
   a-command@3.0.1:
     resolution: {integrity: sha512-lsqypyCjjyC8vLvPnnsqqsVqm1e4NzMtz3hFbI0Tf8l9hJCDy8njQnv0Kv42ZAGT0Ei4FLLOn6ulg7L80YwEAg==}
@@ -2027,14 +2027,6 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@mudbean/is@2.0.2': {}
-
-  '@mudbean/pen-static@1.1.2': {}
-
-  '@mudbean/utils@2.0.5':
-    dependencies:
-      '@mudbean/is': 2.0.2
-
   '@napi-rs/wasm-runtime@1.1.5(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)':
     dependencies:
       '@emnapi/core': 1.10.0
@@ -2400,6 +2392,14 @@ snapshots:
 
   '@unrs/resolver-binding-win32-x64-msvc@1.12.2':
     optional: true
+
+  '@vvi/is@2.0.5': {}
+
+  '@vvi/pen-static@1.1.3': {}
+
+  '@vvi/utils@2.0.6':
+    dependencies:
+      '@vvi/is': 2.0.5
 
   a-command@3.0.1:
     dependencies:

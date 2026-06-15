@@ -86,8 +86,8 @@ for (const childrenName of srcChildrenList) {
 packageJson = {
   ...packageJson,
   main: `${cjsPrefix}/index.js`,
-  module: `${esPrefix}/index.mjs`,
-  types: 'index.d.ts',
+  module: `${esPrefix}/index.js`,
+  types: `${dtsPrefix}/index.d.ts`,
   author: {
     name: '泥豆君',
     email: 'Mr.MudBean@outlook.com',
@@ -117,6 +117,7 @@ packageJson = {
     '终端',
     'terminal',
     'terminal string format',
+    'vvi',
   ],
   homepage: 'https://npm.lmssee.com/pen',
   dependencies,

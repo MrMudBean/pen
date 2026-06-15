@@ -1,5 +1,5 @@
 import { computedTerminalColor } from './computedTerminalColor';
-import { isNumber, isString, isUndefined } from '@mudbean/is';
+import { isNumber, isString, isUndefined } from '@vvi/is';
 
 /**
  *
