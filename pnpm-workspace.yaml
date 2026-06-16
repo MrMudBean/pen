@@ -1,5 +1,4 @@
 allowBuilds:
   unrs-resolver: true
-minimumReleaseAgeExclude:
-  - '@mudbean/pen-static@1.1.2'
+
 minimumReleaseAge: 0
