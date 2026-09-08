@@ -121,15 +121,15 @@ packageJson = {
     'terminal string format',
     'vvi',
   ],
-  homepage: 'https://npm.lmssee.com/pen',
+  homepage: 'https://npm.gleanings.cn/pen',
   dependencies,
   bugs: {
-    url: 'https://github.com/MrMudBean/pen/issues',
+    url: 'https://github.com/gleanings/pen/issues',
     email: 'Mr.MudBean@outlook.com',
   },
   repository: {
     type: 'git',
-    url: 'git+https://github.com/MrMudBean/pen.git',
+    url: 'git+https://github.com/gleanings/pen.git',
   },
   publishConfig: {
     access: 'public',

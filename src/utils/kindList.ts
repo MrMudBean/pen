@@ -1,8 +1,8 @@
 import { StringKindList, FunctionKindList } from '../types';
-import { generateRgb } from './generateRgb';
 import { generateColor } from './generateColor';
 import { generateHex } from './generateHex';
 import { generateNumber } from './generateNumber';
+import { generateRgb } from './generateRgb';
 
 /**
  * # 序列值

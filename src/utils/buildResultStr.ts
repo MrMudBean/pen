@@ -1,7 +1,7 @@
-import { beforeBuild } from './beforeBuild';
 import { isEmptyArray, isEmptyString, isNull, isUndefined } from '@vvi/is';
-import { penText } from '../types';
 import { csi } from '@vvi/pen-static';
+import { penText } from '../types';
+import { beforeBuild } from './beforeBuild';
 
 /**
  * # 构建最终文本

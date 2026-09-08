@@ -1,5 +1,5 @@
-import { computedTerminalColor } from './computedTerminalColor';
 import { isNumber, isString, isUndefined } from '@vvi/is';
+import { computedTerminalColor } from './computedTerminalColor';
 
 /**
  *

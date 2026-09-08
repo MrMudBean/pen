@@ -1,5 +1,5 @@
-import { getRandomInt } from '@vvi/utils';
 import { isTrue, isString, isArray, isNumber, isFalse } from '@vvi/is';
+import { getRandomInt } from '@vvi/utils';
 /**
  * # 计算 256 色值
  *

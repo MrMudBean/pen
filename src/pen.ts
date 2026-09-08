@@ -1,14 +1,3 @@
-import { buildResultStr } from './utils/buildResultStr';
-import { kindList } from './utils/kindList';
-import {
-  FunctionKindList,
-  KindListKey,
-  Pen,
-  penText,
-  StringKindList,
-} from './types';
-
-import { mergeValueIsString } from './utils/mergeValue';
 import {
   isType,
   isArray,
@@ -18,6 +7,17 @@ import {
   isNumber,
 } from '@vvi/is';
 import { createConstructor } from '@vvi/utils';
+import {
+  FunctionKindList,
+  KindListKey,
+  Pen,
+  penText,
+  StringKindList,
+} from './types';
+import { buildResultStr } from './utils/buildResultStr';
+import { kindList } from './utils/kindList';
+
+import { mergeValueIsString } from './utils/mergeValue';
 
 /**
  * # 生成 `pen`

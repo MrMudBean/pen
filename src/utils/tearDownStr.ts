@@ -1,7 +1,7 @@
+import { isNull, isUndefined } from '@vvi/is';
 import { terminalRegExp } from '@vvi/pen-static';
 import { kindList } from './kindList';
 import { reverseParse } from './reverseParse';
-import { isNull, isUndefined } from '@vvi/is';
 
 /**
  * # 拆解字符串
